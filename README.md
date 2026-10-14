@@ -1,33 +1,40 @@
-﻿# ASP.NET Core 5.0 Layered Architecture Project
+# ASP.NET Core Layered Architecture Project
 
-## About
-This project is a web application developed with ASP.NET Core 5.0 and C#.
-It demonstrates a layered architecture and separates application responsibilities
-into different projects.
+## About the Project
+
+This project is a web application developed using C# and ASP.NET Core 5.0. It demonstrates a layered architecture by separating the user interface, API, data access operations, and entity models into different projects.
 
 ## Technologies
+
 - C#
 - ASP.NET Core 5.0
+- ASP.NET Core MVC
+- ASP.NET Core Web API
 - Entity Framework Core
 - Microsoft SQL Server
-- ASP.NET Core Web API
 - Swagger / OpenAPI
-- Layered Architecture
 - Repository Pattern
+- Layered Architecture
 
 ## Project Structure
-- `Core_Proje` - MVC web application and user interface
-- `Core_Proje_Api` - Web API
-- `DataAccessLayer` - Data access and Entity Framework Core operations
-- `EntityLayer` - Entity classes
+
+- **Core_Proje:** MVC web application and user interface
+- **Core_Proje_Api:** Web API project
+- **DataAccessLayer:** Data access and Entity Framework Core operations
+- **EntityLayer:** Entity classes and data models
 
 ## Getting Started
-1. Install the .NET 5 SDK.
-2. Open the project in Visual Studio.
-3. Configure your local database connection if required.
-4. Restore NuGet packages and build the projects.
-5. Run the application.
+
+1. Clone this repository.
+2. Open the solution in Visual Studio.
+3. Configure the database connection string for your local environment.
+4. Restore the NuGet packages.
+5. Build and run the required projects.
 
 ## Notes
-.NET 5 is out of support. This project was developed using .NET 5.0
-and may require dependency updates for production use.
+
+This project targets .NET 5.0, which is no longer supported. Updating to a supported .NET version is recommended before using it in production.
+
+## Author
+
+Serhat Öztaş
